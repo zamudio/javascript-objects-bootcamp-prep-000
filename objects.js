@@ -10,14 +10,3 @@ function removeFromPlaylist(playlist, artistName) {
   delete newPlaylist[artistName]
   return newPlaylist
 }
-
-// function deleteFromObjectByKey(object, key) {
-//   return Object.assign({}, object, {key})
-// }
-
-
-// function deleteFromObjectByKey(object, key) {
-//   var newObject = Object.assign({}, object)
-//   delete newObject[key]
-//   return newObject
-// }
